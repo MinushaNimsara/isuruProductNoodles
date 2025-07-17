@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isuru Foods - Premium Food Products</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preload" href="assets/food10.jpg" as="image">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <img src="assets/logo.png" alt="Isuru Foods Logo" class="logo">
+        </div>
+        <div class="search-container">
+            <form class="search-form">
+                <input type="search" class="search-input" placeholder="Search products...">
+                <button type="submit" class="search-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <button class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content" data-aos="fade-right">
+            <h1>Premium Food Products</h1>
+            <p>Experience the finest noodles and soy meat products crafted with care and quality</p>
+            <a href="#products" class="explore-btn">Discover Our Range</a>
+        </div>
+        <div class="hero-slider" data-aos="fade-left">
+            <div class="slider-container">
+                <div class="slide">
+                    <img src="assets/food1.jpg" alt="Premium Noodles">
+                </div>
+                <div class="slide">
+                    <img src="assets/food2.jpg" alt="Soy Meat Products">
+                </div>
+                <div class="slide">
+                    <img src="assets/food3.jpg" alt="Special Products">
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="prev-btn">&lt;</button>
+                <div class="slider-dots"></div>
+                <button class="next-btn">&gt;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2 data-aos="fade-up">Our Premium Products</h2>
+        <div class="products-grid">
+            <div class="product-card" data-aos="fade-up">
+                <div class="product-image">
+                    <img src="assets/food4.jpg" alt="Premium Noodles">
+                </div>
+                <div class="product-info">
+                    <h3>Premium Noodles</h3>
+                    <p>Experience the authentic taste of our carefully crafted noodles</p>
+                    <a href="#contact" class="product-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="product-image">
+                    <img src="assets/food5.jpg" alt="Soy Meat">
+                </div>
+                <div class="product-info">
+                    <h3>Soy Meat</h3>
+                    <p>High-protein vegetarian alternative with authentic taste</p>
+                    <a href="#contact" class="product-btn">Learn More</a>
+                </div>
+            </div>
+            <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="product-image">
+                    <img src="assets/food6.jpg" alt="Special Products">
+                </div>
+                <div class="product-info">
+                    <h3>Special Products</h3>
+                    <p>Discover our range of specialty food products</p>
+                    <a href="#contact" class="product-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <h2 data-aos="fade-up">Our Gallery</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item" data-aos="zoom-in">
+                <img src="assets/food7.jpg" alt="Food Gallery">
+                <div class="gallery-overlay">
+                    <h3>Premium Products</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                <img src="assets/food8.jpg" alt="Food Gallery">
+                <div class="gallery-overlay">
+                    <h3>Quality Ingredients</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                <img src="assets/food9.jpg" alt="Food Gallery">
+                <div class="gallery-overlay">
+                    <h3>Special Dishes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 data-aos="fade-up">Get in Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h3>Contact Information</h3><br><br>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: info@isurufoods.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Phone: +94 123 456 789</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Address: 123 Food Street, Colombo, Sri Lanka</p>
+                </div>
+            </div>
+            <form
+  action="https://formspree.io/f/xyzkydae"
+  method="POST"
+>
+    
+    <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+    
+    <button type="submit" class="submit-btn">
+        Send Message
+        <!-- Optional: Add icon if needed -->
+        <i class="fas fa-paper-plane"></i>
+    </button>
+</form>
+        </div>
+    </section>
+
+    <!-- Enhanced Footer -->
+<footer class="footer">
+    <div class="footer-content">
+        <!-- Animated Logo -->
+        <div class="footer-logo" data-aos="zoom-in">
+            <img src="assets/logo.png" alt="Isuru Foods Logo" class="hover-scale">
+        </div>
+
+        <!-- Glowing Navigation -->
+        <div class="footer-grid">
+            <div class="footer-section" data-aos="fade-up">
+                <h4 class="footer-heading">Explore</h4>
+                <div class="footer-links">
+                    <a href="#home" class="glow-link">Home</a>
+                    <a href="#products" class="glow-link">Products</a>
+                    <a href="#gallery" class="glow-link">Gallery</a>
+                    <a href="#contact" class="glow-link">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="100">
+                <h4 class="footer-heading">Connect</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section" data-aos="fade-up" data-aos-delay="200">
+                <h4 class="footer-heading">Newsletter</h4>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="subscribe-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Animated Divider -->
+        <div class="footer-divider" data-aos="fade-right"></div>
+
+        <!-- Copyright with Floating Effect -->
+        <div class="copyright" data-aos="fade-up">
+            <p>&copy; 2025 Isuru Foods. All Rights Reserved. <span class="highlight-text">Crafted with ❤️ in Sri Lanka</span></p>
+        </div>
+
+        <!-- Back to Top Button -->
+        <button class="back-to-top" aria-label="Back to top">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+    </div>
+</footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
